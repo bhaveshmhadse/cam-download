@@ -1,0 +1,27 @@
+.center {
+  /* background: red; */
+  background: transparent;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.but {
+  /* background: red; */
+  outline: none;
+  padding: 12px 34px;
+  border: solid transparent;
+  border-radius: 8px;
+  font-weight: 900;
+  background: rgb(180, 242, 180);
+  color: rgb(0, 74, 0);
+  font-size: large;
+  text-transform: capitalize;
+  transition: all ease-in-out 100ms;
+}
+
+.but:hover {
+  background-color: rgb(91, 230, 91);
+  color: rgb(0, 36, 0);
+}
